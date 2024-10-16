@@ -11,11 +11,14 @@
   <style>
     /* General styles for the body, including background image and text color */
     body {
+      width: 100vw;
+      height: 100vh;
       background-image: url('static/welcomebg.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       color: #fff;
+      border: 5px solid blue;
     }
 
     body::before {
@@ -31,21 +34,30 @@
 
     /* Container styling for the main content */
     .container {
-      max-width: 500px;
+      width: 40%;
       height: auto;
-      background-color: rgba(255, 255, 255, 0.85);
-      padding: 20px 20px 0px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
       position: absolute;
       top: 50%;
       left: 50%;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
       transform: translate(-50%, -50%);
+    }
+
+    /* Heading color */
+    h2 {
+      color: #007bff;
     }
 
     /* Welcome text styles */
     .welcome-text {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       font-weight: 400;
       color: black;
       margin: 10px 0;
@@ -53,39 +65,39 @@
 
     /* Logo container styling */
     .logo {
+      width: 50%;
+      height: auto;
+      margin: 10px 0px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 50px auto 20px auto;
-      width: 300px;
-      height: 150px;
     }
 
     .logo img {
       width: 100%;
       height: auto;
+      margin: auto auto auto -8px;
       object-fit: contain;
     }
 
     /* Panel visibility control */
     .panel {
       display: none;
+      align-items: center;
+    }
+
+    .panel h3 {
+      text-align: center;
     }
 
     .active-panel {
       display: block;
     }
 
-    /* Button styles */
-    .btn-primary,
-    .btn-success {
-      width: 50%;
-      margin: 10px;
-    }
-
     .btn-lg {
       padding: 10px;
       font-size: 1.25rem;
+      margin: 10px;
     }
 
     /* Form control styling */
@@ -94,18 +106,13 @@
       font-size: 16px;
     }
 
-    /* Heading color */
-    h2 {
-      color: #007bff;
-    }
-
     /* Toggle button styles */
     .toggle-buttons {
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-bottom: 20px;
     }
 
     /* Label color */
@@ -121,7 +128,6 @@
 
     .form-group {
       position: relative;
-      /* Ensure relative positioning */
     }
 
     .eye {
@@ -187,7 +193,7 @@
   {% endwith %}
 
   <!-- Main Container for Welcome Content -->
-  <div class="container text-center">
+  <div class="container">
     <h2>Welcome to Travel Alchemy</h2>
     <p class="welcome-text">Your Personalized Travel Planner</p>
     <!-- Logo -->

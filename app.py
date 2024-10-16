@@ -152,6 +152,3 @@ def index():
     # Show main page with no plan initially
     return render_template('index.html', plan=None)  
 
-# Run the Flask app
-if __name__ == "__main__":
-    app.run(debug=True)
