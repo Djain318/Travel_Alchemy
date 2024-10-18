@@ -146,10 +146,8 @@ Travel Alchemy is a user-friendly web application designed to simplify travel pl
    ```bash
    pip install -u requirements.txt
    ```
-6. **Generate a Google-generativeai API**
-   ```bash
-   GEMINI API: [Genereate Key](https://ai.google.dev/gemini-api/docs/quickstart)
-   ```
+6. **Generate a Google-generativeai (GEMINI) API**
+[Genereate Key](https://ai.google.dev/gemini-api/docs/quickstart)
 
 7. **Create a `.env` file with your API keys:**
    ```bash
