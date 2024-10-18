@@ -1,4 +1,4 @@
-# Travel Alchemy - Your Personalized Travel Planner
+# Travel Alchemy : Your Personalized Travel Planner
 
 <div align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python" style="margin: 5px;"></a>
@@ -116,7 +116,7 @@ Travel Alchemy is a user-friendly web application designed to simplify travel pl
 2. **Navigate to the project directory:**
 
    ```bash
-   cd travel-alchemy
+   cd Travel_Alchemy
    ```
 
 3. **Set up a virtual environment:**
@@ -151,7 +151,6 @@ Travel Alchemy is a user-friendly web application designed to simplify travel pl
 
 7. **Create a `.env` file with your API keys:**
    ```bash
-  
    GEMINI_API_KEY=your_api_key
    
    SECRET_KEY=your_secret_key
@@ -162,7 +161,7 @@ Travel Alchemy is a user-friendly web application designed to simplify travel pl
 1. **Run the application:**
 
    ```bash
-   flask run
+   python wsgi.py
    ```
 
 2. **Open your web browser and navigate to:**
