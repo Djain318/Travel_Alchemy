@@ -14,10 +14,7 @@
 </div>
 
 <hr>
-<div style="text-align: center;">
     ![Video GIF](static/Video.gif)
-</div>
-
 <hr>
 
 <p> 
