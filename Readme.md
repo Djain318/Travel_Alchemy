@@ -15,10 +15,8 @@
 
 <hr>
 <div style="text-align: center;">
-    <img src="static/video.gif" alt="Video GIF">
+    ![Video GIF](static/Video.gif)
 </div>
-
-  ![Video GIF](static/Video.gif)
 
 <hr>
 
