@@ -144,7 +144,7 @@ Travel Alchemy is a user-friendly web application designed to simplify travel pl
 5. **Install the required packages:**
 
    ```bash
-   pip freeze > requirements.txt
+   pip install -u requirements.txt
    ```
 
 6. **Create a `.env` file with your API keys:**
