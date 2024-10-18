@@ -16,7 +16,7 @@
 <hr>
 
 <div align="center">
-  <a href="YOUR_VIDEO_LINK_HERE"><img src="https://img.shields.io/badge/Watch%20the%20Video-Click%20Here-orange.svg" alt="Watch the Video"></a>
+  <img src="static/video.gif" alt="Watch the Video">
 </div>
 
 <hr>
