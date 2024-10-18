@@ -16,7 +16,7 @@
 <hr>
 
 <div align="center">
-  <img src="static/video.gif" alt="Watch the Video">
+  ![Video GIF](static/video.gif)
 </div>
 
 <hr>
