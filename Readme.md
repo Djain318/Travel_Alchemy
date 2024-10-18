@@ -10,12 +10,16 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-3-purple.svg" alt="CSS" style="margin: 5px;"></a>
 <a href="https://www.openai.com/research/"><img src="https://img.shields.io/badge/Gen%20AI-OpenAI-red.svg" alt="Gen AI" style="margin: 5px;"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="License" style="margin: 5px;"></a>
-
 </div>
 
-<hr>
-    ![Video GIF](static/Video.gif)
-<hr>
+<div align="center">
+<p>Here is the Deployed site :  
+  <a href="https://travel-alchemy.onrender.com/">Link</a>
+</p>
+<p align="center"> 
+  <img src="static/Video.gif" alt="animated" />
+</p>
+</div>
 
 <p> 
 Travel Alchemy is a user-friendly web application designed to simplify travel planning by generating personalized itineraries. Users can easily input their starting location, dream destination, travel dates, and any specific preferences to create tailored travel plans. The app features an intuitive interface that presents itineraries in a structured, visually appealing format, enhanced by Markdown support. Users benefit from suggestions for accommodations and local attractions, making it easy to explore new destinations. Additionally, Travel Alchemy links to popular hotel and flight booking platforms, streamlining travel arrangements. Overall, Travel Alchemy empowers users to plan their adventures with confidence and ease.
